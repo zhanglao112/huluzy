@@ -1,0 +1,7 @@
+==2012-11-26-0811
+1.vector<Handler*> handlers_;
+当UnRegisterHandler时候改如何处理
+2.EPOLLIN | EPOLLET
+3.EPOLL_CTL_ADD...
+4.epoll_ctl(efd,EPOLL_CTL_ADD,sfd,&event)
+ &event  局部变量？
